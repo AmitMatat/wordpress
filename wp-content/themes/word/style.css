@@ -1,0 +1,61 @@
+/*
+ * theme name: amit
+ * author: amit
+ * version: 1.0
+ 
+ * */
+
+body{
+	color:grey;
+}
+a:link, a:visited{
+	color:#006ec3;
+}
+.conteiner{
+	max-width: 1024px;
+	margin-right:20px;
+	margin-left:20px;
+	 margin: 0 auto;
+	
+}
+.post{
+	border-bottom: 1px solid black;
+		clear: both;
+
+	
+}
+.post:last-of-type{
+	border: none;
+}
+.site_nav ul{
+	margin: 0;
+	padding: 0;
+}
+.site_nav ul li{
+	list-style:none;
+	float: right;
+	display: block;
+	padding: 10px;
+	border: 1px solid #EEE;
+	background: #EEE;
+	}
+.site_nav ul li:hover{
+	background: #006EC3;
+	}
+	.site_nav ul li a:hover{
+	color:#EEE;
+	
+	}
+
+.site_nav a:link{
+	text-decoration: none;
+}
+/* Image Style */
+img{
+	max-width: 100%;
+	height: auto;
+}
+/* Search Style */
+div .hd-search{
+	float: left;
+}
